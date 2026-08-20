@@ -245,6 +245,31 @@ FEATURES
 
 */
 
+#features {
+  position: relative;
+}
+
+#features .row__narrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#features .section__title {
+  text-align: center;
+}
+
+#features .section__para {
+  text-align: center;
+  max-width: 576px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
 .container {
   padding: 80px 0;
 }
@@ -256,11 +281,24 @@ FEATURES
 }
 
 .section__tag {
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .section__title {
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding-top: 24px;
+  font-size: 36px;
+}
+
+.features__para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  width: 100%;
+  max-width: 500px;
 }
