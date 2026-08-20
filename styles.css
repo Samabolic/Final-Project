@@ -135,7 +135,40 @@ HEADER
   margin-bottom: 8px;
 }
 
+.header__description--title {
+  color: black;
+}
+
 .header__description--para {
   font-size: 18px;
   margin-top: 16px;
+}
+
+.header__email {
+  margin-top: 16px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.header__customers--title {
+  margin-top: 64px;
+  color: grey;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.header__customers {
+  margin-top: 16px;
+}
+
+.header__img {
+  display: flex;
+  width: 60%;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.header__description,
+.header__img--wrapper {
+  
 }
