@@ -278,7 +278,7 @@ FEATURES
   justify-content: center;
   text-align: center;
   padding-top: 24px;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 500;
 }
 
@@ -306,7 +306,13 @@ FEATURES
   display: flex;
   width: calc(100% / 3);
   justify-content: center;
-  padding: 20px;
+  padding-top: 0.5px;
+}
+
+.feature__row {
+  display: flex;
+  align-items: flex-start;
+  padding: 32px 24px;
 }
 
 .feature__img--wrapper {
